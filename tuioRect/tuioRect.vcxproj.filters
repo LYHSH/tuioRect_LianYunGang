@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\affineBox.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\boxMgr.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui.cpp">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui_demo.cpp">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui_draw.cpp">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\BaseEngine.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\BaseTheme.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\EngineGLFW.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\EngineOpenGLES.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\EngineVk.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\Gui.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\Helpers.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGuiLoggerChannel.cpp">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscParameterSync.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscSender.cpp">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\NetworkingUtils.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocket.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip\win32</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.cpp">
+			<Filter>addons\ofxTuioWrapper\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioServer.cpp">
+			<Filter>addons\ofxTuioWrapper\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioClient.cpp">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioServer.cpp">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioTime.cpp">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui">
+			<UniqueIdentifier>{0CD6A942-69FF-3BAA-3AF1-ADD1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\src">
+			<UniqueIdentifier>{18028A43-13D3-1DD5-471A-BE87}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\src\libs">
+			<UniqueIdentifier>{F0C4C2FC-CE68-9631-687A-122A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\src\libs\imgui">
+			<UniqueIdentifier>{3EE53AE8-87EF-8630-2070-B9DA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\src\libs\imgui\src">
+			<UniqueIdentifier>{243E7B27-FF28-B9C9-B7FA-B610}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\src\src">
+			<UniqueIdentifier>{BABCC5CE-2BE9-AF95-9282-F462}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc">
+			<UniqueIdentifier>{D91DCA33-6E5D-4481-2AEC-9FBB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\src">
+			<UniqueIdentifier>{B9DD339A-D93D-92A1-0A2F-4B41}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs">
+			<UniqueIdentifier>{99ECA1D9-873F-4622-8FC0-FC7B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack">
+			<UniqueIdentifier>{D3A98534-1602-4FEF-57A6-6593}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src">
+			<UniqueIdentifier>{BFB5BB47-98C8-BBCB-3066-1046}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip">
+			<UniqueIdentifier>{5A029128-EB41-95C5-CBC0-CDED}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\ip\win32">
+			<UniqueIdentifier>{79DFDFE2-400B-8654-3675-01A3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
+			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTuioWrapper">
+			<UniqueIdentifier>{493B74E7-DB7E-A4C2-A4A2-EC27}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTuioWrapper\src">
+			<UniqueIdentifier>{1089B786-A967-183B-2738-2DD5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxTuioWrapper\src\TUIO">
+			<UniqueIdentifier>{6BD78B73-7FEC-9439-8E8A-7854}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings">
+			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\src">
+			<UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\libs">
+			<UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\affineBox.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\boxMgr.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui.h">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui_internal.h">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\stb_rect_pack.h">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\stb_textedit.h">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\stb_truetype.h">
+			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\BaseEngine.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\BaseTheme.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\EngineGLFW.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\EngineOpenGLES.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\EngineVk.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\Gui.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\Helpers.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\imconfig.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGui.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGuiLoggerChannel.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ThemeTest.h">
+			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOsc.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscArg.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscBundle.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscMessage.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscParameterSync.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscReceiver.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscSender.h">
+			<Filter>addons\ofxOsc\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\IpEndpointName.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\NetworkingUtils.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\TimerListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\ip</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\MessageMappingOscPacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscException.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscHostEndianness.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
+			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.h">
+			<Filter>addons\ofxTuioWrapper\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioServer.h">
+			<Filter>addons\ofxTuioWrapper\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioClient.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioContainer.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioCursor.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioListener.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioObject.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioPoint.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioServer.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioTime.h">
+			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
