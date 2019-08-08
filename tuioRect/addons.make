@@ -1,4 +1,14 @@
+ofxConstants
+ofxHapPlayer
+ofxHardIdentification
 ofxImGui
+ofxMD5Convert
+ofxMyBackground
+ofxMyDataSender
+ofxNetwork
 ofxOsc
+ofxPublicCmd
+ofxSerial
 ofxTuioWrapper
+ofxVideoPlayer
 ofxXmlSettings

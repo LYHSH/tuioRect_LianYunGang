@@ -22,6 +22,11 @@ public:
 	void showGui();
 
 	string getDir();
+
+	ofRectangle getRect(int _index);
+
+	int size();
+	int touch(int _x, int _y);
 private:
 	vector<affineBox *> boxs;
 	int editorIndex;

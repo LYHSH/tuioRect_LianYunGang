@@ -19,6 +19,57 @@
 		<ClCompile Include="src\ofApp.cpp">
 			<Filter>src</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxConstants\src\ofxMyConstants.cpp">
+			<Filter>addons\ofxConstants\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\src\ofxHapPlayer.cpp">
+			<Filter>addons\ofxHapPlayer\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src\hap.c">
+			<Filter>addons\ofxHapPlayer\libs\hap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioDecoder.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioParameters.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioResampler.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioThread.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\Clock.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\Demuxer.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\MovieTime.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\PacketCache.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\RingBuffer.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\TimeRangeSet.cpp">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxBaseBoard.cpp">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxCPU.cpp">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxHardIdentification.cpp">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxIdentificationMgr.cpp">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui.cpp">
 			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
 		</ClCompile>
@@ -51,6 +102,63 @@
 		</ClCompile>
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGuiLoggerChannel.cpp">
 			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\cmdConverter.cpp">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\md5Converter.cpp">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\nullConverter.cpp">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\timeSynMd5Converter.cpp">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxImagePageBack.cpp">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxNullPageBack.cpp">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBack.cpp">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBackFactory.cpp">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxVideoPageBack.cpp">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSender.cpp">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderFacory.cpp">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderMgr.cpp">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxSerialDataSender.cpp">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxTcpDataSender.cpp">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxUdpDataSender.cpp">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp">
+			<Filter>addons\ofxNetwork\src</Filter>
 		</ClCompile>
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp">
 			<Filter>addons\ofxOsc\src</Filter>
@@ -103,6 +211,18 @@
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioTime.cpp">
 			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
 		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\loopVideoplayer.cpp">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\maskVideoPlayer.cpp">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\synVideoPlayer.cpp">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\videoPlayer.cpp">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClCompile>
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
 			<Filter>addons\ofxXmlSettings\src</Filter>
 		</ClCompile>
@@ -123,6 +243,69 @@
 		<Filter Include="addons">
 			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxConstants">
+			<UniqueIdentifier>{E3754598-CA85-8CB3-071C-AB1A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxConstants\src">
+			<UniqueIdentifier>{1E6D5BC5-A69E-1B43-E70D-744D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer">
+			<UniqueIdentifier>{3ABF0718-7EF0-C616-645A-BC48}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\src">
+			<UniqueIdentifier>{B922E112-1099-333C-0CFD-9815}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs">
+			<UniqueIdentifier>{0B971793-EF6D-AFDC-9CC8-D438}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ffmpeg">
+			<UniqueIdentifier>{AE8122FC-CDD3-49FD-1BD0-9A09}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ffmpeg\include">
+			<UniqueIdentifier>{295BE532-F54C-6D22-741F-2D3A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec">
+			<UniqueIdentifier>{3D70608C-D695-D1FA-7621-C7E1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ffmpeg\include\libavformat">
+			<UniqueIdentifier>{99202E5D-41C0-DEEA-153D-7346}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ffmpeg\include\libavutil">
+			<UniqueIdentifier>{2B0F33E4-0F6E-4F5D-691A-6BC2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ffmpeg\include\libswresample">
+			<UniqueIdentifier>{C94787C7-B54D-79CA-4EDC-EA46}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\hap">
+			<UniqueIdentifier>{9657ED59-9D5A-DDF5-E840-7BB3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\hap\src">
+			<UniqueIdentifier>{49B16A97-1FCF-BC4F-A074-82BC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ofxHap">
+			<UniqueIdentifier>{81854E06-4A3C-EE06-CE8B-A33D}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ofxHap\include">
+			<UniqueIdentifier>{EB4E97F5-97E8-2DB8-16D6-DBB9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ofxHap\include\ofxHap">
+			<UniqueIdentifier>{0AC17D0E-3614-0010-4FC7-24CF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\ofxHap\src">
+			<UniqueIdentifier>{E1E4E96B-D25B-812B-6CA6-A094}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\snappy">
+			<UniqueIdentifier>{DE8D24CF-1FEE-A8FC-D414-04F3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHapPlayer\libs\snappy\include">
+			<UniqueIdentifier>{F382B96F-D4BC-E604-A05C-DB44}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHardIdentification">
+			<UniqueIdentifier>{8F1B6FE4-EEA4-73D8-1E37-8F55}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxHardIdentification\src">
+			<UniqueIdentifier>{FFDF7D92-383F-85DA-1259-CBC6}</UniqueIdentifier>
+		</Filter>
 		<Filter Include="addons\ofxImGui">
 			<UniqueIdentifier>{0CD6A942-69FF-3BAA-3AF1-ADD1}</UniqueIdentifier>
 		</Filter>
@@ -140,6 +323,30 @@
 		</Filter>
 		<Filter Include="addons\ofxImGui\src\src">
 			<UniqueIdentifier>{BABCC5CE-2BE9-AF95-9282-F462}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMD5Convert">
+			<UniqueIdentifier>{0A4C8083-4F49-473E-FCB3-F7A9}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMD5Convert\src">
+			<UniqueIdentifier>{F4EE7640-D3D0-A71C-A9F1-294B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMyBackground">
+			<UniqueIdentifier>{C822C456-86B5-92B3-D704-97F8}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMyBackground\src">
+			<UniqueIdentifier>{0DA57E6B-A06F-D1E9-DF67-3A5B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMyDataSender">
+			<UniqueIdentifier>{F717C355-6611-7FA0-6B46-4F10}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxMyDataSender\src">
+			<UniqueIdentifier>{E36B8253-5EE3-EFA6-F3E8-AFBA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxNetwork">
+			<UniqueIdentifier>{01A15744-29A6-108D-08E9-83A7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxNetwork\src">
+			<UniqueIdentifier>{3D1C10C7-8F35-E796-9C70-F5F3}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="addons\ofxOsc">
 			<UniqueIdentifier>{D91DCA33-6E5D-4481-2AEC-9FBB}</UniqueIdentifier>
@@ -165,6 +372,18 @@
 		<Filter Include="addons\ofxOsc\libs\oscpack\src\osc">
 			<UniqueIdentifier>{EDACB89C-9768-9551-4D41-B590}</UniqueIdentifier>
 		</Filter>
+		<Filter Include="addons\ofxPublicCmd">
+			<UniqueIdentifier>{47A2A0E3-BDC4-8AC5-53C4-5095}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxPublicCmd\src">
+			<UniqueIdentifier>{DE4AE920-C1ED-3BF4-E33C-89CC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSerial">
+			<UniqueIdentifier>{E1E4AE73-4A0A-7627-37ED-3253}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxSerial\src">
+			<UniqueIdentifier>{A215C2B7-2A7F-4B7B-0D28-5393}</UniqueIdentifier>
+		</Filter>
 		<Filter Include="addons\ofxTuioWrapper">
 			<UniqueIdentifier>{493B74E7-DB7E-A4C2-A4A2-EC27}</UniqueIdentifier>
 		</Filter>
@@ -173,6 +392,12 @@
 		</Filter>
 		<Filter Include="addons\ofxTuioWrapper\src\TUIO">
 			<UniqueIdentifier>{6BD78B73-7FEC-9439-8E8A-7854}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxVideoPlayer">
+			<UniqueIdentifier>{16C58948-04C7-43D7-6D6C-6F79}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxVideoPlayer\src">
+			<UniqueIdentifier>{CA2AFA2F-7C0C-BEA1-7472-4E9B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="addons\ofxXmlSettings">
 			<UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
@@ -196,6 +421,372 @@
 		</ClInclude>
 		<ClInclude Include="src\ofApp.h">
 			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxConstants\src\ofxMyConstants.h">
+			<Filter>addons\ofxConstants\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\src\ofxHapPlayer.h">
+			<Filter>addons\ofxHapPlayer\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avcodec.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avdct.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avfft(1).h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avfft.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\d3d11va(1).h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\d3d11va.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dirac(1).h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dirac.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dv_profile(1).h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dv_profile.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dxva2.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\jni.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\mediacodec(1).h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\mediacodec.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\qsv.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vaapi.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vda.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vdpau.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\version.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\videotoolbox.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vorbis_parser.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\xvmc.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat\avformat.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavformat</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat\avio.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavformat</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat\version.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavformat</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\adler32.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\aes.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\aes_ctr.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\attributes.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\audio_fifo.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avassert.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avconfig.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avstring.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avutil.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\base64.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\blowfish.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\bprint.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\bswap.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\buffer.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\camellia.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\cast5.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\channel_layout.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\common.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\cpu.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\crc.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\des.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\dict.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\display.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\downmix_info.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\error.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\eval.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\ffversion.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\fifo.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\file.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\frame.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hash.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hmac.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_cuda.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_dxva2.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_qsv.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_vaapi.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_vdpau.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\imgutils.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\intfloat.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\intreadwrite.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\lfg.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\log.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\macros.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\mastering_display_metadata.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\mathematics.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\md5.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\mem.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\motion_vector.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\murmur3.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\opt.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\parseutils.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\pixdesc.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\pixelutils.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\pixfmt.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\random_seed.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\rational.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\rc4.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\replaygain.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\ripemd.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\samplefmt.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\sha.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\sha512.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\stereo3d.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\tea.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\threadmessage.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\time.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\timecode.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\timestamp.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\tree.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\twofish.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\version.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\xtea.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libavutil</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample\swresample.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libswresample</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample\version.h">
+			<Filter>addons\ofxHapPlayer\libs\ffmpeg\include\libswresample</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src\hap(1).h">
+			<Filter>addons\ofxHapPlayer\libs\hap\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src\hap.h">
+			<Filter>addons\ofxHapPlayer\libs\hap\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioDecoder(1).h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioDecoder.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioParameters.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioResampler.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioThread.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\Clock.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\Common.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\Demuxer.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\ErrorReceiving.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\MovieTime.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\PacketCache.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\RingBuffer.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\TimeRangeSet.h">
+			<Filter>addons\ofxHapPlayer\libs\ofxHap\include\ofxHap</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\include\snappy-c.h">
+			<Filter>addons\ofxHapPlayer\libs\snappy\include</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxBaseBoard.h">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxCPU.h">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxHardIdentification.h">
+			<Filter>addons\ofxHardIdentification\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxIdentificationMgr.h">
+			<Filter>addons\ofxHardIdentification\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui.h">
 			<Filter>addons\ofxImGui\src\libs\imgui\src</Filter>
@@ -244,6 +835,72 @@
 		</ClInclude>
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ThemeTest.h">
 			<Filter>addons\ofxImGui\src\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\cmdConverter.h">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\md5.h">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\md5Converter.h">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\nullConverter.h">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\timeSynMd5Converter.h">
+			<Filter>addons\ofxMD5Convert\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxImagePageBack.h">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxNullPageBack.h">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBack.h">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBackFactory.h">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxVideoPageBack.h">
+			<Filter>addons\ofxMyBackground\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSender.h">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderFacory.h">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderMgr.h">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxSerialDataSender.h">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxTcpDataSender.h">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxUdpDataSender.h">
+			<Filter>addons\ofxMyDataSender\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxNetwork.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPManager.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.h">
+			<Filter>addons\ofxNetwork\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxUDPManager.h">
+			<Filter>addons\ofxNetwork\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOsc.h">
 			<Filter>addons\ofxOsc\src</Filter>
@@ -305,6 +962,21 @@
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h">
 			<Filter>addons\ofxOsc\libs\oscpack\src\osc</Filter>
 		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\ofxPptCmd.h">
+			<Filter>addons\ofxPublicCmd\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\ofxScreenCmd.h">
+			<Filter>addons\ofxPublicCmd\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\ofxSoundPlayControlCmd.h">
+			<Filter>addons\ofxPublicCmd\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\videoControlCmd.h">
+			<Filter>addons\ofxPublicCmd\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxSerial\src\ofxSerial.h">
+			<Filter>addons\ofxSerial\src</Filter>
+		</ClInclude>
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.h">
 			<Filter>addons\ofxTuioWrapper\src</Filter>
 		</ClInclude>
@@ -334,6 +1006,21 @@
 		</ClInclude>
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioTime.h">
 			<Filter>addons\ofxTuioWrapper\src\TUIO</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\loopVideoplayer.h">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\maskVideoPlayer.h">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\synVideoPlayer.h">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\videoPlayer.h">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
+		</ClInclude>
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\videoPlayerContants.h">
+			<Filter>addons\ofxVideoPlayer\src</Filter>
 		</ClInclude>
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
 			<Filter>addons\ofxXmlSettings\src</Filter>

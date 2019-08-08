@@ -38,8 +38,6 @@ void affineBox::setup()
 	affinePts[4].x = getRect().getCenter().x;
 	affinePts[4].y = getRect().getCenter().y;
 
-	cout << affinePts[4] << endl;
-
 	loadSetting(defaultFile);
 }
 

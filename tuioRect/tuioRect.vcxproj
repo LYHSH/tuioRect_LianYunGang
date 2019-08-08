@@ -95,15 +95,15 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxConstants\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\license;..\..\..\..\..\..\addons\ofxHapPlayer\src;..\..\..\..\..\..\addons\ofxHardIdentification\src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxMD5Convert\src;..\..\..\..\..\..\addons\ofxMyBackground\src;..\..\..\..\..\..\addons\ofxMyDataSender\src;..\..\..\..\..\..\addons\ofxNetwork\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxPublicCmd\src;..\..\..\..\..\..\addons\ofxSerial\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxVideoPlayer\src;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 		</ClCompile>
 		<Link>
 			<GenerateDebugInformation>true</GenerateDebugInformation>
 			<SubSystem>Console</SubSystem>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies);libavcodec.lib;libavformat.lib;libavutil.lib;libswresample.lib;snappyd.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Debug</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -114,7 +114,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxConstants\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\license;..\..\..\..\..\..\addons\ofxHapPlayer\src;..\..\..\..\..\..\addons\ofxHardIdentification\src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxMD5Convert\src;..\..\..\..\..\..\addons\ofxMyBackground\src;..\..\..\..\..\..\addons\ofxMyDataSender\src;..\..\..\..\..\..\addons\ofxNetwork\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxPublicCmd\src;..\..\..\..\..\..\addons\ofxSerial\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxVideoPlayer\src;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
 		</ClCompile>
@@ -122,8 +122,8 @@
 			<GenerateDebugInformation>true</GenerateDebugInformation>
 			<SubSystem>Console</SubSystem>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies);libavcodec.lib;libavformat.lib;libavutil.lib;libswresample.lib;snappyd.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Debug</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -133,7 +133,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxConstants\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\license;..\..\..\..\..\..\addons\ofxHapPlayer\src;..\..\..\..\..\..\addons\ofxHardIdentification\src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxMD5Convert\src;..\..\..\..\..\..\addons\ofxMyBackground\src;..\..\..\..\..\..\addons\ofxMyDataSender\src;..\..\..\..\..\..\addons\ofxNetwork\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxPublicCmd\src;..\..\..\..\..\..\addons\ofxSerial\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxVideoPlayer\src;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 			<MultiProcessorCompilation>true</MultiProcessorCompilation>
 		</ClCompile>
@@ -144,8 +144,8 @@
 			<OptimizeReferences>true</OptimizeReferences>
 			<EnableCOMDATFolding>true</EnableCOMDATFolding>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies);libavcodec.lib;libavformat.lib;libavutil.lib;libswresample.lib;snappy.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Release</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -155,7 +155,7 @@
 			<PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
 			<RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
 			<WarningLevel>Level3</WarningLevel>
-			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);src;..\..\..\..\..\..\addons\ofxConstants\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap;..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\include;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\Win32\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Debug;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Release;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\license;..\..\..\..\..\..\addons\ofxHapPlayer\src;..\..\..\..\..\..\addons\ofxHardIdentification\src;..\..\..\..\..\..\addons\ofxImGui\src;..\..\..\..\..\..\addons\ofxImGui\src\libs;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui;..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src;..\..\..\..\..\..\addons\ofxImGui\src\src;..\..\..\..\..\..\addons\ofxMD5Convert\src;..\..\..\..\..\..\addons\ofxMyBackground\src;..\..\..\..\..\..\addons\ofxMyDataSender\src;..\..\..\..\..\..\addons\ofxNetwork\src;..\..\..\..\..\..\addons\ofxOsc\libs;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32;..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc;..\..\..\..\..\..\addons\ofxOsc\src;..\..\..\..\..\..\addons\ofxPublicCmd\src;..\..\..\..\..\..\addons\ofxSerial\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src;..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO;..\..\..\..\..\..\addons\ofxVideoPlayer\src;..\..\..\..\..\..\addons\ofxXmlSettings\libs;..\..\..\..\..\..\addons\ofxXmlSettings\src</AdditionalIncludeDirectories>
 			<CompileAs>CompileAsCpp</CompileAs>
 		</ClCompile>
 		<Link>
@@ -165,8 +165,8 @@
 			<OptimizeReferences>true</OptimizeReferences>
 			<EnableCOMDATFolding>true</EnableCOMDATFolding>
 			<RandomizedBaseAddress>false</RandomizedBaseAddress>
-			<AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
-			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+			<AdditionalDependencies>%(AdditionalDependencies);libavcodec.lib;libavformat.lib;libavutil.lib;libswresample.lib;snappy.lib</AdditionalDependencies>
+			<AdditionalLibraryDirectories>%(AdditionalLibraryDirectories);..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\lib\vs\x64;..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\lib\vs\x64\Release</AdditionalLibraryDirectories>
 		</Link>
 		<PostBuildEvent />
 	</ItemDefinitionGroup>
@@ -175,6 +175,23 @@
 		<ClCompile Include="src\ofApp.cpp" />
 		<ClCompile Include="src\affineBox.cpp" />
 		<ClCompile Include="src\boxMgr.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxConstants\src\ofxMyConstants.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\src\ofxHapPlayer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src\hap.c" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioDecoder.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioParameters.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioResampler.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\AudioThread.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\Clock.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\Demuxer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\MovieTime.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\PacketCache.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\RingBuffer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\src\TimeRangeSet.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxBaseBoard.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxCPU.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxHardIdentification.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxIdentificationMgr.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui_demo.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui_draw.cpp" />
@@ -186,6 +203,25 @@
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\Gui.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\Helpers.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGuiLoggerChannel.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\cmdConverter.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\md5Converter.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\nullConverter.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\timeSynMd5Converter.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxImagePageBack.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxNullPageBack.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBack.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBackFactory.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxVideoPageBack.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSender.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderFacory.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderMgr.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxSerialDataSender.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxTcpDataSender.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxUdpDataSender.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscBundle.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscParameterSync.cpp" />
@@ -203,6 +239,10 @@
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioClient.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioServer.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioTime.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\loopVideoplayer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\maskVideoPlayer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\synVideoPlayer.cpp" />
+		<ClCompile Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\videoPlayer.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp" />
 		<ClCompile Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp" />
@@ -212,6 +252,128 @@
 		<ClInclude Include="src\ofApp.h" />
 		<ClInclude Include="src\affineBox.h" />
 		<ClInclude Include="src\boxMgr.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxConstants\src\ofxMyConstants.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\src\ofxHapPlayer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avcodec.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avdct.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avfft(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\avfft.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\d3d11va(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\d3d11va.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dirac(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dirac.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dv_profile(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dv_profile.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\dxva2.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\jni.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\mediacodec(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\mediacodec.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\qsv.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vaapi.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vda.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vdpau.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\version.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\videotoolbox.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\vorbis_parser.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavcodec\xvmc.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat\avformat.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat\avio.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavformat\version.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\adler32.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\aes.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\aes_ctr.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\attributes.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\audio_fifo.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avassert.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avconfig.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avstring.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\avutil.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\base64.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\blowfish.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\bprint.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\bswap.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\buffer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\camellia.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\cast5.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\channel_layout.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\common.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\cpu.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\crc.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\des.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\dict.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\display.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\downmix_info.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\error.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\eval.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\ffversion.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\fifo.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\file.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\frame.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hash.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hmac.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_cuda.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_dxva2.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_qsv.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_vaapi.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\hwcontext_vdpau.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\imgutils.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\intfloat.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\intreadwrite.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\lfg.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\log.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\macros.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\mastering_display_metadata.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\mathematics.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\md5.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\mem.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\motion_vector.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\murmur3.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\opt.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\parseutils.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\pixdesc.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\pixelutils.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\pixfmt.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\random_seed.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\rational.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\rc4.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\replaygain.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\ripemd.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\samplefmt.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\sha.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\sha512.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\stereo3d.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\tea.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\threadmessage.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\time.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\timecode.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\timestamp.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\tree.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\twofish.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\version.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libavutil\xtea.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample\swresample.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ffmpeg\include\libswresample\version.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src\hap(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\hap\src\hap.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioDecoder(1).h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioDecoder.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioParameters.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioResampler.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\AudioThread.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\Clock.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\Common.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\Demuxer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\ErrorReceiving.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\MovieTime.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\PacketCache.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\RingBuffer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\ofxHap\include\ofxHap\TimeRangeSet.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHapPlayer\libs\snappy\include\snappy-c.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxBaseBoard.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxCPU.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxHardIdentification.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxHardIdentification\src\ofxIdentificationMgr.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\imgui_internal.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\libs\imgui\src\stb_rect_pack.h" />
@@ -228,6 +390,28 @@
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGui.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ofxImGuiLoggerChannel.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxImGui\src\src\ThemeTest.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\cmdConverter.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\md5.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\md5Converter.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\nullConverter.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMD5Convert\src\timeSynMd5Converter.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxImagePageBack.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxNullPageBack.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBack.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxPageBackFactory.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyBackground\src\ofxVideoPageBack.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSender.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderFacory.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxDataSenderMgr.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxSerialDataSender.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxTcpDataSender.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxMyDataSender\src\ofxUdpDataSender.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxNetwork.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPClient.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPManager.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxTCPServer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxNetwork\src\ofxUDPManager.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOsc.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscArg.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\src\ofxOscBundle.h" />
@@ -248,6 +432,11 @@
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPrintReceivedElements.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\ofxPptCmd.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\ofxScreenCmd.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\ofxSoundPlayControlCmd.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxPublicCmd\src\videoControlCmd.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxSerial\src\ofxSerial.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\ofxTuioServer.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioClient.h" />
@@ -258,6 +447,11 @@
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioPoint.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioServer.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxTuioWrapper\src\TUIO\TuioTime.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\loopVideoplayer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\maskVideoPlayer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\synVideoPlayer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\videoPlayer.h" />
+		<ClInclude Include="..\..\..\..\..\..\addons\ofxVideoPlayer\src\videoPlayerContants.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h" />
 		<ClInclude Include="..\..\..\..\..\..\addons\ofxXmlSettings\libs\tinyxml.h" />
 	</ItemGroup>

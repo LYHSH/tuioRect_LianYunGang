@@ -4,6 +4,11 @@
 #include "affineBox.h"
 #include "ofxImGui.h"
 #include "boxMgr.h"
+#include "videoPlayer.h"
+#include "ofxTuioClient.h"
+
+static float const screen_w = 1920.0f;
+static float const screen_h = 1080.0f;
 
 class ofApp : public ofBaseApp{
 
@@ -23,9 +28,21 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
+		void exit();
 		
-		bool bShowGui;
+		bool bSetting;
 		ofxImGui::Gui gui;
 
 		boxMgr myBoxMgr;
+
+		videoPlayer video;
+
+
+		ofxTuioClient myTuio;
+
+		void touchDown(ofTouchEventArgs & touch);
+		void touchUp(ofTouchEventArgs & touch);
+		void touchMoved(ofTouchEventArgs & touch);
+
+		float lasttimer;
 };

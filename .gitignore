@@ -1,2 +1,11 @@
 tuioRect/bin/imgui.ini
 tuioRect/bin/data/.gitkeep
+tuioRect/tuioRect.VC.db
+tuioRect/tuioRect.vcxproj.user
+tuioRect/.vs/
+tuioRect/obj/
+tuioRect/bin/data/identificationSource.xml
+tuioRect/bin/tuioRect.ipdb
+tuioRect/bin/tuioRect.iobj
+tuioRect/bin/tuioRect.exp
+tuioRect/bin/tuioRect.lib

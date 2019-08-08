@@ -114,6 +114,33 @@ string boxMgr::getDir()
 	return "box/";
 }
 
+ofRectangle boxMgr::getRect(int _index)
+{
+	if (_index >= 0 && _index < boxs.size())
+	{
+		return boxs[_index]->getRect();
+	}
+	return ofRectangle(0,0,0,0);
+}
+
+int boxMgr::size()
+{
+	return boxs.size();
+}
+
+int boxMgr::touch(int _x, int _y)
+{
+	for (int i = 0; i < boxs.size(); i++)
+	{
+		if (boxs[i]->getRect().inside(_x,_y))
+		{
+			return i;
+		}
+	}
+	return -1;
+}
+
+
 //--------------------------------------------------------------
 void boxMgr::keyPressed(int key) {
 	for (int i = 0;i < boxs.size();i++)
